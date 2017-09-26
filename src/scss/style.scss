@@ -1,0 +1,76 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color:#008ed6;
+$dark-overlay: rgba(0,0,0,0.8);
+$icon-size: 20px;
+
+body{
+  background:$bg-color;
+  color: $font-color;
+}
+
+.navbar{
+  border-bottom: $primary-color 3px solid;
+  opacity: 0.8;
+}
+
+#checks{
+  color: $font-color;
+}
+
+#home-section{
+  background: url('../img/home.jpg');
+  min-height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .home-inner{
+    padding-top: 150px;
+  }
+
+  .fa{
+    background-color: $font-color;
+    padding: 4px;
+    border: 5px;
+    color: $primary-color;
+    border-radius: 5px;
+    font-size: $icon-size;
+  }
+}
+#explore-section{
+  .fa{
+    background-color: #333;
+    color: #fff;
+    font-size: $icon-size;
+    border-radius: 5px;
+    padding: 4px;
+
+  }
+  color: black !important;
+}
+
+#fix-section{
+  .fa{
+    background-color: $font-color;
+    padding: 4px;
+    border: 5px;
+    color: $primary-color;
+    border-radius: 5px;
+    font-size: $icon-size;
+
+  }
+
+}
+
+#share-section{
+  color: black;
+}
